@@ -1,0 +1,9 @@
+all: 
+	gcc Server_ipv6.c -o Server_ipv6.out -lpthread
+	gcc Client_ipv6.c -o Client_ipv6.out -lpthread
+
+clean:
+	rm Chat_tcpserver_ipv6.out
+	rm Chat_tcpclient_ipv6.out
+
+fe80::a00:27ff:fe7e:d488
